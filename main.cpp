@@ -115,7 +115,7 @@ for(int j=0;j<4;j++)
 {
 a++;
 if(strcmp(bus[n].seat[i][j],"-")!=0)
-cout<<"\nThe seat no "<<(a-1)<<" is reserved for "<<bus[n].seat[i][j]<<"."; //****************************************************
+cout<<"\nThe seat no "<<(a-1)<<" is reserved for "<<bus[n].seat[i][j]<<"."; 
 }
 }
 break;
@@ -155,7 +155,7 @@ cout.fill(' ');
         }
 }
     }
-  cout<<"\n\nThere are "<<p<<" seats empty in Bus No: "<<bus[l].busn; //*********************************************************
+  cout<<"\n\nThere are "<<p<<" seats empty in Bus No: "<<bus[l].busn; 
   }
 
 
